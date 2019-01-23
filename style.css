@@ -32,6 +32,10 @@ header {
   text-align: center;
 }
 
+section {
+  text-align: center;
+}
+
 h1 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
