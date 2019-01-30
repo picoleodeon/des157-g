@@ -13,30 +13,30 @@
 </head>
 
 <body>
-
   <header>
-    <h1>Find out your horoscope for today!</h1></header>
+    <h1>Find out your horoscope for today!</h1>
+  </header>
 
-<section id="container">
+  <section id="container">
 
-  <section id="mysection1">
-    <section>
-<h2>your future is just a few clicks away...</h2><br>
-      <form>
-        <h3>pick a noun</h3><br>
-        <input type="text" name="noun" required><br><br>
-        <h3> pick an adjective</h3><br>
-        <input type="text" name="adjective" required><br><br>
-        <h3>pick a verb</h3><br>
-        <input type="text" name="verb" required><br><br>
-        <h3> pick an adjective</h3><br>
-        <input type="text" name="adjective2" required><br><br>
-        <h3>pick a noun</h3><br>
-        <input type="text" name="noun" required><br><br>
-        <input type="reset" value="reset" id="reset">
-        <input type="submit" value="submit" id="submit">
-      </form>
-    </section>
+    <section id="mysection1">
+      <section>
+        <h2>your future is just a few clicks away...</h2><br>
+        <form>
+          <h3>pick a noun (singular)</h3><br>
+          <input type="text" name="noun" id="nounOne" required><br><br>
+          <h3> pick an adjective</h3><br>
+          <input type="text" name="adjective" id="adjectiveOne" required><br><br>
+          <h3>pick a verb</h3><br>
+          <input type="text" name="verb" id="verbOne" required><br><br>
+          <h3> pick an adjective</h3><br>
+          <input type="text" name="adjective2" id="adjectiveTwo" required><br><br>
+          <h3>pick a noun (plural)</h3><br>
+          <input type="text" name="noun2" id="nounTwo" required><br><br>
+          <input type="reset" value="reset" id="reset">
+          <input type="submit" value="submit" id="submit">
+        </form>
+      </section>
     </section>
 
     <section id="mysection2">
@@ -46,8 +46,9 @@
       </section>
     </section>
   </section>
-
-
+  <section id="msgSection" class="hide">
+    <p id="myMsg"></p>
+  </section>
 
   <footer>
     <p> <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a> |

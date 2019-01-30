@@ -35,8 +35,6 @@ body {
 
 header {
   display: block;
-  /*  width: 800px;
-  height: 250px;*/
   margin: 0 auto;
   padding-bottom: 2rem;
   padding-top: 3rem;
@@ -65,6 +63,23 @@ header {
   margin: auto;
   margin-right: 10rem;
   margin-bottom: 30rem;
+}
+
+#msgSection {
+  margin: auto;
+  padding-left: 33%;
+  padding-right: 15%;
+  margin-top: 20em;
+  background-color: #fff;
+  max-width: 500px;
+}
+
+#myMsg {
+  font-size: 1.25em;
+  color: #4c4c4c;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+
 }
 
 section {
@@ -116,5 +131,4 @@ footer {
   text-align: center;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-
 }
