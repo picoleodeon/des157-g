@@ -1,0 +1,50 @@
+body {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #FFD700;
+  background: #04BFBF;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 768px;
+}
+
+#mysection1 {
+  margin: auto;
+  padding-top: 10em;
+  padding-right: 40em;
+  padding-bottom: 0;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  color: #C4FFED;
+  text-align: center;
+  padding-right: 11em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  color: #6CE5ED;
+  text-align: center;
+  padding-right: 15em;
+}
+
+footer {
+  position: fixed;
+  margin-top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
