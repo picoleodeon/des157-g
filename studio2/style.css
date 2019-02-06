@@ -4,24 +4,6 @@ body {
   color: #FFD700;
   background: #04BFBF;
 }
-@media only screen and (min-width: 769px) {
-   /* declarations */
-}
-
-#container {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 768px;
-}
-
-#mysection1 {
-  margin: auto;
-  padding-top: 5em;
-  padding-right: 20em;
-  padding-bottom: 0;
-}
-
 header {
   text-align: center;
 }
@@ -31,7 +13,6 @@ h2 {
   font-family: 'Roboto', sans-serif;
   color: #C4FFED;
   text-align: center;
-
 }
 
 h3 {
@@ -41,12 +22,36 @@ h3 {
   text-align: center;
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 769px;
+  padding-right: 40em;
+}
+#mysection1 {
+  margin: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
 footer {
-  position: fixed;
-  margin-top: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 769px;
+  text-align: center;
+
+}
+
+@media only screen and (min-width: 769px) {
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 769px;
+
+  }
+
 }
