@@ -13,12 +13,12 @@ body {
   flex-direction: column;
   margin: auto;
   padding-right: 45em;
-  width: 769px;
+  width: 768px;
 }
 
 #mysection1 {
   margin: auto;
-  padding-top: 10em;
+  padding-top: 5em;
   padding-right: 40em;
   padding-bottom: 0;
 }
@@ -28,17 +28,15 @@ header {
 }
 
 h2 {
-  font-size: 10em;
+  font-size: 2em;
   font-family: 'Roboto', sans-serif;
   color: #C4FFED;
   text-align: center;
 
-
-
 }
 
 h3 {
-  font-size: 8em;
+  font-size: 2em;
   font-family: 'Roboto', sans-serif;
   color: #6CE5ED;
   text-align: center;
