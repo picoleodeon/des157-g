@@ -7,7 +7,24 @@ body {
 header {
   text-align: center;
 }
-
+#backPack{
+  z-index: -1;
+}
+#image {
+  position:relative;
+  z-index: -1;
+}
+#topSpot{
+  position: absolute;
+  width:120px;
+  height:20px;
+  background-color: blue;
+  top: 50px;
+  left: 300px;
+}
+#overlay {
+  display: none;
+}
 h2 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
@@ -21,7 +38,6 @@ h3 {
   color: #6CE5ED;
   text-align: center;
 }
-
 #container {
   display: flex;
   flex-direction: column;
