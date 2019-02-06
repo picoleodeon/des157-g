@@ -26,8 +26,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 769px;
-  padding-right: 40em;
+  max-width: 769px;
 }
 #mysection1 {
   margin: auto;
@@ -35,11 +34,12 @@ h3 {
   padding-bottom: 5em;
 }
 footer {
+  position: fixed;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-  position: fixed;
+  left:0;
   bottom: 0;
-  width: 769px;
+  max-width: 769px;
   text-align: center;
 
 }
@@ -50,8 +50,14 @@ footer {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 769px;
-
+    max-width: 1366px;
   }
-
+  footer {
+    position: fixed;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0;
+    max-width: 1366px;
+    text-align: center;
+}
 }
