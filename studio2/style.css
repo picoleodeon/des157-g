@@ -4,11 +4,15 @@ body {
   color: #FFD700;
   background: #04BFBF;
 }
+@media only screen and (min-width: 769px) {
+   /* declarations */
+}
 
 #container {
   display: flex;
   flex-direction: column;
   margin: auto;
+  padding-right: 45em;
   width: 768px;
 }
 
@@ -24,19 +28,20 @@ header {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 10em;
   font-family: 'Roboto', sans-serif;
   color: #C4FFED;
   text-align: center;
-  padding-right: 11em;
+
+
+
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 8em;
   font-family: 'Roboto', sans-serif;
   color: #6CE5ED;
   text-align: center;
-  padding-right: 15em;
 }
 
 footer {
