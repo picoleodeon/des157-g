@@ -32,12 +32,13 @@ h3 {
   margin: auto;
   padding-top: 5em;
   padding-bottom: 5em;
+
 }
 footer {
   position: fixed;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-  left:0;
+  left: 0;
   bottom: 0;
   max-width: 769px;
   text-align: center;
