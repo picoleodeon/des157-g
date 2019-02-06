@@ -12,14 +12,13 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-right: 45em;
   width: 768px;
 }
 
 #mysection1 {
   margin: auto;
   padding-top: 5em;
-  padding-right: 40em;
+  padding-right: 20em;
   padding-bottom: 0;
 }
 
