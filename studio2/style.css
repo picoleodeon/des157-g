@@ -1,23 +1,35 @@
-@-webkit-keyframes swinging{
-    0%{-webkit-transform: rotate(10deg);}
-    50%{-webkit-transform: rotate(-5deg)}
-    100%{-webkit-transform: rotate(10deg);}
-}
-
-@keyframes swinging{
-    0%{transform: rotate(10deg);}
-    50%{transform: rotate(-5deg)}
-    100%{transform: rotate(10deg);}
-}
-
-.swingimg{
-    -webkit-transform-origin: 50% 50;
-    transform-origin: 50% 50;
-    -webkit-animation: swinging .75s ease-in-out forwards infinite;
-    animation: swinging .75s ease-in-out forwards infinite;
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
   }
+  50% {
+    -webkit-transform: rotate(-5deg)
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
+}
 
-  body {
+@keyframes swinging {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-5deg)
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.swingimg {
+  -webkit-transform-origin: 50% 50;
+  transform-origin: 50% 50;
+  -webkit-animation: swinging .75s ease-in-out forwards infinite;
+  animation: swinging .75s ease-in-out forwards infinite;
+}
+
+body {
   font-size: em;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
@@ -77,7 +89,7 @@ header {
 }
 
 #overlayThree {
-  top:0;
+  top: 0;
   text-align: center;
   padding-top: 5em;
   padding-left: 5em;
@@ -93,11 +105,10 @@ header {
 #overlay {
   top: 0;
   text-align: center;
-    padding-top:5em;
+  padding-top: 5em;
   padding-left: 5em;
   padding-right: 5em;
   padding-bottom: 20em;
-
   display: none;
   position: absolute;
   max-width: 100%;
@@ -119,7 +130,7 @@ h2 {
 h3 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
-  color: #CBE5ED;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -143,14 +154,27 @@ h4 {
   padding-bottom: 5em;
 }
 
+
+a {
+  font-size: .5em;
+  font-family: 'Roboto', sans-serif;
+  color: #04BFBF;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+}
+
 footer {
-  position: fixed;
+  position: relative;
   font-size: 1em;
+  padding-top: .5em;
   font-family: 'Roboto', sans-serif;
   left: 0;
   bottom: 0;
   max-width: 769px;
+  height: 25%;
   text-align: center;
+  background-color: #C4FFED;
 }
 
 @media only screen and (min-width: 769px) {
@@ -162,41 +186,42 @@ footer {
   }
   #overlayTwo {
     top: 0;
+    bottom: 0;
     text-align: center;
     padding-top: 10em;
     padding-left: 2em;
     padding-right: 5em;
-    padding-bottom: 20em;
+    padding-bottom: 40em;
     display: none;
     position: absolute;
     max-width: 100%;
     max-height: 100%;
     background-color: #68BF47;
   }
-
   #overlayThree {
-    top:0;
+    top: 0;
+    bottom: 0;
     text-align: center;
-    margin-left: 40em;
+    margin-left: 41em;
     padding-top: 10em;
     padding-left: 5em;
     padding-right: 5em;
-    padding-bottom: 20em;
+    padding-bottom: 40em;
     display: none;
     position: absolute;
     max-width: 100%;
     max-height: 100%;
     background-color: #E8780C;
   }
-
   #overlay {
     top: 0;
+    bottom: 0;
     text-align: center;
-      padding-top:10em;
+    padding-top: 10em;
     padding-left: 5em;
     padding-right: 5em;
-    padding-bottom: 20em;
-margin-left: 20em;
+    padding-bottom: 40em;
+    margin-left: 20em;
     display: none;
     position: absolute;
     max-width: 455px;
@@ -204,13 +229,26 @@ margin-left: 20em;
     background-color: #FF004F;
     z-index: 1;
   }
-
+  a:hover {
+    color: #FF004F;
+  }
+  a {
+    background-color: #04BFBF;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #C4FFED;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+  }
   footer {
-    position: fixed;
+    background-color: #04BFBF;
+    position: relative;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     bottom: 0;
     max-width: 1366px;
     text-align: center;
+    margin-left: 3%;
   }
 }
