@@ -1,7 +1,26 @@
-body {
-  font-size: 1em;
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+.swingimg{
+    -webkit-transform-origin: 50% 50;
+    transform-origin: 50% 50;
+    -webkit-animation: swinging .75s ease-in-out forwards infinite;
+    animation: swinging .75s ease-in-out forwards infinite;
+  }
+
+  body {
+  font-size: em;
   font-family: 'Roboto', sans-serif;
-  color: #FFD700;
+  color: #ffffff;
   background: #04BFBF;
 }
 
@@ -11,12 +30,6 @@ header {
 
 #image {
   position: relative;
-}
-
-#closeOne #closeTwo #closeThree {
-  position: absolute;
-  top: 30%;
-  right: 25%;
 }
 
 #topSpot {
@@ -50,41 +63,46 @@ header {
 }
 
 #overlayTwo {
+  top: 0;
+  text-align: center;
+  padding-top: 5em;
   padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
+  padding-right: 5em;
+  padding-bottom: 20em;
   display: none;
   position: absolute;
-  max-width: 384px;
-  max-height: 768px;
-  background-color: yellow;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #68BF47;
 }
 
 #overlayThree {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  margin-left: 45em;
+  top:0;
+  text-align: center;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 20em;
   display: none;
-  flex-direction: column;
   position: absolute;
-  max-width: 384px;
-  max-height: 768px;
-  background-color: yellow;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #E8780C;
 }
 
 #overlay {
   top: 0;
   text-align: center;
+    padding-top:5em;
   padding-left: 5em;
-  padding-right: 2em;
-  padding-bottom: 5em;
-  padding-top:5em;
+  padding-right: 5em;
+  padding-bottom: 20em;
+
   display: none;
   position: absolute;
-  width: 768px;
-  height: 100%;
-  background-color: blue;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #FF004F;
 }
 
 #sanitizer {
@@ -101,7 +119,14 @@ h2 {
 h3 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
-  color: #6CE5ED;
+  color: #CBE5ED;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -135,6 +160,51 @@ footer {
     margin: auto;
     max-width: 1366px;
   }
+  #overlayTwo {
+    top: 0;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 2em;
+    padding-right: 5em;
+    padding-bottom: 20em;
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #68BF47;
+  }
+
+  #overlayThree {
+    top:0;
+    text-align: center;
+    margin-left: 40em;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 20em;
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #E8780C;
+  }
+
+  #overlay {
+    top: 0;
+    text-align: center;
+      padding-top:10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 20em;
+margin-left: 20em;
+    display: none;
+    position: absolute;
+    max-width: 455px;
+    max-height: 100%;
+    background-color: #FF004F;
+    z-index: 1;
+  }
+
   footer {
     position: fixed;
     font-size: 1em;
