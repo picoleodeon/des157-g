@@ -22,7 +22,7 @@
   }
 }
 
-.swingimg {
+.swingimg{
   -webkit-transform-origin: 50% 200px;
   transform-origin: 50% 200px;
   -webkit-animation: swinging .75s ease-in-out forwards infinite;
@@ -111,10 +111,6 @@ header {
   max-width: 100%;
   min-height: 100%;
   background-color: #FF004F;
-}
-
-#sanitizer {
-  margin-right: 2em;
 }
 
 h2 {
