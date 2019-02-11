@@ -4,27 +4,93 @@ body {
   color: #FFD700;
   background: #04BFBF;
 }
+
 header {
   text-align: center;
 }
-#backPack{
-  z-index: -1;
-}
+
 #image {
-  position:relative;
-  z-index: -1;
+  position: relative;
 }
-#topSpot{
+
+#closeOne #closeTwo #closeThree {
   position: absolute;
-  width:120px;
-  height:20px;
+  top: 30%;
+  right: 25%;
+}
+
+#topSpot {
+  position: absolute;
+  width: 350px;
+  height: 165px;
   background-color: blue;
-  top: 50px;
-  left: 300px;
+  top: 20px;
+  left: 55px;
+  opacity: 0;
 }
-#overlay {
+
+#leftSpot {
+  position: absolute;
+  width: 175px;
+  height: 150px;
+  background-color: red;
+  top: 155px;
+  left: 55px;
+  opacity: 0;
+}
+
+#rightSpot {
+  position: absolute;
+  width: 175px;
+  height: 150px;
+  background-color: yellow;
+  top: 155px;
+  left: 230px;
+  opacity: 0;
+}
+
+#overlayTwo {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
   display: none;
+  position: absolute;
+  max-width: 384px;
+  max-height: 768px;
+  background-color: yellow;
 }
+
+#overlayThree {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  margin-left: 45em;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  max-width: 384px;
+  max-height: 768px;
+  background-color: yellow;
+}
+
+#overlay {
+  top: 0;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 2em;
+  padding-bottom: 5em;
+  padding-top:5em;
+  display: none;
+  position: absolute;
+  width: 768px;
+  height: 100%;
+  background-color: blue;
+}
+
+#sanitizer {
+  margin-right: 2em;
+}
+
 h2 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
@@ -38,18 +104,20 @@ h3 {
   color: #6CE5ED;
   text-align: center;
 }
+
 #container {
   display: flex;
   flex-direction: column;
   margin: auto;
   max-width: 769px;
 }
+
 #mysection1 {
   margin: auto;
   padding-top: 5em;
   padding-bottom: 5em;
-
 }
+
 footer {
   position: fixed;
   font-size: 1em;
@@ -58,11 +126,9 @@ footer {
   bottom: 0;
   max-width: 769px;
   text-align: center;
-
 }
 
 @media only screen and (min-width: 769px) {
-
   #container {
     display: flex;
     flex-direction: column;
@@ -76,5 +142,5 @@ footer {
     bottom: 0;
     max-width: 1366px;
     text-align: center;
-}
+  }
 }
