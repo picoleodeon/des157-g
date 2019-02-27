@@ -1,0 +1,80 @@
+body {
+  background: #000;
+}
+
+.compass {
+  width: 151px;
+  height: 240px;
+  margin: 2% auto;
+  background: url('images/compass.png') left center;
+  animation: play 1.5s steps(8) infinite;
+}
+
+@keyframes play {
+	100% { background-position: -2450px; }
+}
+
+a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+}
+
+h1
+{
+  color: #fff;
+  background: #000;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a:hover {
+  color: #fff;
+  background: #000;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+  position: fixed;
+  margin-top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+@media only screen and (min-width: 769px) {
+
+ a:hover {
+   color: #000;
+   background-color: #fff;
+ }
+ a {
+   background-color: #fff;
+   font-size: 1em;
+   font-family: 'Roboto', sans-serif;
+   color: #000;
+   text-align: center;
+   text-decoration: none;
+ }
+ footer {
+   background-color: #fff;
+   position: absolute;
+   font-size: 1em;
+   font-family: 'Roboto', sans-serif;
+   bottom: 0;
+   max-width: 1366px;
+   text-align: center;
+
+
+}
+
+}
