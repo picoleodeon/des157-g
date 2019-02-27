@@ -11,7 +11,9 @@ body {
 }
 
 @keyframes play {
-	100% { background-position: -2450px; }
+  100% {
+    background-position: -2450px;
+  }
 }
 
 a {
@@ -22,13 +24,11 @@ a {
   background: #000;
 }
 
-h1
-{
+h1 {
   color: #fff;
   background: #000;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-
 }
 
 a:hover {
@@ -50,31 +50,28 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-
 @media only screen and (min-width: 769px) {
+  a:hover {
+    color: #000;
+    background-color: #fff;
+  }
 
- a:hover {
-   color: #000;
-   background-color: #fff;
- }
- a {
-   background-color: #fff;
-   font-size: 1em;
-   font-family: 'Roboto', sans-serif;
-   color: #000;
-   text-align: center;
-   text-decoration: none;
- }
- footer {
-   background-color: #fff;
-   position: absolute;
-   font-size: 1em;
-   font-family: 'Roboto', sans-serif;
-   bottom: 0;
-   max-width: 100%;
-   text-align: center;
+  a {
+    background-color: #fff;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+  }
 
-
-}
-
+  footer {
+    background-color: #fff;
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0;
+    max-width: 100%;
+    text-align: center;
+  }
 }
