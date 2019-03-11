@@ -58,15 +58,14 @@ a:hover {
   background-color: #4c4c4c !important;
   font-size: 10px;
   width:1in;
-  padding: 14px;
-  margin-left: 550px;
-  margin-top: 350px;
+  padding: 16px;
   margin-bottom:4px;
   color:#fff;
   background-color: #333;
   text-decoration: none;
+  }
+    #container2 {
 
-}
 }
 
 #home {
