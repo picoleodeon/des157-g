@@ -55,44 +55,44 @@ h1 {
 
 #overlayHisp {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 50px;
   background-color: blue;
   z-index: 6;
-  left: 20em;
+  left: 22em;
   top: 300px;
   opacity: 0;
 }
 
 #overlayNote {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 50px;
   background-color: blue;
   z-index: 6;
-  left: 20em;
+  left: 22em;
   top: 450px;
   opacity: 0;
 }
 
 #overlayWolf {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 50px;
   background-color: blue;
   z-index: 6;
-  left: 20em;
+  left: 22em;
   top: 610px;
   opacity: 0;
 }
 
 #overlayWorld {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 50px;
   background-color: blue;
   z-index: 6;
-  left: 20em;
+  left: 22em;
   top: 750px;
   opacity: 0;
 }
@@ -156,7 +156,7 @@ h1 {
   position: absolute;
   display: none;
   top: 1820px;
-    width: 350px;
+    width: 400px;
   padding-top: 250px;
   margin-left: 525px;
   z-index: 6;
@@ -173,7 +173,7 @@ h1 {
   top: 1820px;
     width: 400px;
   padding-top: 420px;
-  margin-left: 500px;
+  margin-left: 525px;
   z-index: 6;
 }
 
@@ -188,7 +188,7 @@ h1 {
   top: 1820px;
     width: 400px;
   padding-top: 600px;
-  margin-left: 500px;
+  margin-left: 525px;
   z-index: 6;
 }
 
@@ -203,7 +203,7 @@ h1 {
   top: 1820px;
   width: 400px;
   padding-top: 725px;
-  margin-left: 500px;
+  margin-left: 525px;
   z-index: 6;
 }
 
@@ -265,7 +265,7 @@ a:hover {
 }
 
 #overlay {
-  font-family: arial;
+  font-family: Helvetica;
   top: 0;
   color: #fff;
   font-size: 12px;
