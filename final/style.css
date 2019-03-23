@@ -246,7 +246,7 @@ h1 {
   opacity: 0.5;
 }
 
-#closeTwo, a {
+#closeTwo, a, #reset, #submit {
   border-radius: 5px;
   font-size: 10px;
   width: 1in;
@@ -259,9 +259,10 @@ h1 {
   opacity: 0.5;
 }
 
-a:hover {
+a:hover, #reset, #submit {
   background-color: white;
   color: #000;
+  text-decoration: none;
 }
 
 #overlay {
