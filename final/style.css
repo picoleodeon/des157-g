@@ -246,7 +246,7 @@ h1 {
   opacity: 0.5;
 }
 
-#closeTwo, a, #reset, #submit {
+#closeTwo, a  {
   border-radius: 5px;
   font-size: 10px;
   width: 1in;
@@ -259,7 +259,20 @@ h1 {
   opacity: 0.5;
 }
 
-a:hover, #reset, #submit {
+#reset, #submit{
+  border-radius: 5px;
+  font-size: 10px;
+  width: 1in;
+  padding: 16px;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  display: inline-block;
+
+  
+}
+a:hover {
   background-color: white;
   color: #000;
   text-decoration: none;
